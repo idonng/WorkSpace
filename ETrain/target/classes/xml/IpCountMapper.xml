@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zbt.organization.dao.IpCountMapper">
+	<resultMap id="BaseResultMap" type="com.zbt.organization.pojo.IpCount">
+		<result column="ipmd5" jdbcType="VARCHAR" property="ipmd5" />
+		<result column="ip" jdbcType="VARCHAR" property="ip" />
+		<result column="cityname" jdbcType="VARCHAR" property="cityname" />
+		<result column="ctime" jdbcType="TIMESTAMP" property="ctime" />
+		<result column="flag" jdbcType="INTEGER" property="flag" />
+		<result column="page" jdbcType="INTEGER" property="page" />
+	</resultMap>
+	<insert id="insert" parameterType="com.zbt.organization.IpCount">
+		insert into TB_IPCOUNT (ipmd5, ip, cityname,flag,page,
+		ctime)
+		values (#{ipmd5,jdbcType=VARCHAR}, #{ip,jdbcType=VARCHAR},
+		#{cityname,jdbcType=VARCHAR}, #{flag,jdbcType=INTEGER},
+		#{page,jdbcType=INTEGER},
+		#{ctime,jdbcType=TIMESTAMP})
+	</insert>
+
+</mapper>

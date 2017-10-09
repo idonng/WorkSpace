@@ -1,0 +1,163 @@
+  /*pages reconstruction*/
+  
+  html {
+  	font-size: 100px;
+  }
+  
+  * {
+  	font-size: 0.14rem;
+  	padding: 0;
+  	margin: 0;
+  	font-family: "微软雅黑";
+  }
+  
+  a {
+  	text-decoration: none;
+  }
+  
+  div,
+  p,
+  span,
+  h1,
+  h3,
+  h5,
+  i,
+  b {
+  	max-height: 999999px;
+  }
+  
+  h3{
+  	font-size: 30px;
+  	font-weight: bold;
+  	color: #282828;
+  	height: 0.8rem;
+  	line-height: 0.75rem;
+  	display: inline-block;
+  	padding-left: 0.3rem;
+  	padding-right: 0.6rem;
+  	background-image: url(../images/text_left.png),url(../images/text_right.png);
+  	background-repeat: no-repeat;
+  	background-position: left center,right center;
+  }
+  
+  p{
+  	font-size: 0.28rem;
+  	color: #333333;
+  	margin-bottom: 15px;
+  	font-weight: normal;
+  	line-height: 0.46rem;
+  }
+  
+  hr{
+  	width: 100%;
+  	max-width: 750px;
+  	border: none;
+  	border-top: dashed 3px #999;
+  	margin-bottom: 0.6rem;
+  }
+  
+  img {
+  	border: 0;
+  	max-width: 750px;
+  }
+  
+  body {
+  	max-width: 750px;
+  	margin: 0 auto;
+  	position: relative;
+  	background: #fff;
+  }
+  /*pages reconstruction end*/
+ 
+  /*** header ***/
+  
+  .header {
+  	position: relative;
+  	height: 10.25rem;
+  }
+  
+  .header a {
+  	position: absolute;
+  	z-index: 9;
+  	right: 1rem;
+  	top: 5rem;
+  }
+  
+  .header>img.bg_top {
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	margin: auto;
+  }
+  .header .gold{
+  	position: absolute;
+  	bottom: 1.2rem;
+  	text-align: center;
+  	width: 2.50rem;
+  	left: 0.20rem;
+  }
+  .header>a>p {
+  	color: #fff;
+  	font-size: 30px;
+  	position: absolute;
+  	bottom: 0.5rem;
+  	text-align: center;
+  	width: 100%;
+  	font-weight: bold;
+  }
+  .logo{
+  	z-index: 99;
+  	position: absolute;
+  	top: 0.3rem;
+  	left: 0.6rem;
+  }
+  
+  /*rules*/
+  .advertise,.wordstyle{
+  	margin: 0 auto;
+  	padding: 0 0.75rem 0.9rem;
+  	position: relative;
+  }
+.advertise .text, .wordstyle .text {
+ background: rgba(240,240,240,0.5);
+ border-radius: 10px;
+ box-shadow: 8px 12px 8px -1px rgba(90,90,90,0.25);
+ margin-top: 0.2rem;
+ padding: 0.25rem;
+}
+  .rules .text p:last-child{
+  	margin-bottom: 0;
+  }
+  .advertise .text>img{
+  	width: 100%;
+  }
+  .wordstyle .indent{
+  	text-indent: 0.52rem;
+  }
+  .heart{
+  	position: absolute;
+  	right: 1rem;
+  	top: 0;
+  }
+  .erweima{
+  	width: 100%;
+  	height:6.7rem;
+  	text-align: center;
+  	position: relative;
+  }
+  .erweima>p{
+  	margin-top: 0.20rem;
+  }
+  .erweima .bg_bottom{
+  	position: absolute;
+  	bottom: 0;
+  	left: 0;
+  	margin: auto;
+  }
+  .mapbg{
+  	background: url(../images/opa_bg2.png) no-repeat right top;
+  }
+  .starbg{
+  	background: url(../images/opa_bg1.png) no-repeat right top;
+  }
+  
